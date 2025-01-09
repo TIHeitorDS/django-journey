@@ -12,3 +12,18 @@
 - POST: O método POST faz a submição de dados para um recurso específico, o que pode causar mudanças ou efeitos colaterais no lado do servidor.
 - PUT: O método PUT faz alterações em um recurso especificado.
 - DELETE: O método DELETE faz a exclusão de um recurso especificado.
+
+# Django Templates
+Os **templates** no Django são arquivos HTML dinâmicos. Além disso, nos templates 
+é possível usar variáveis, tags e filtros.
+
+### Vaiáveis
+As variáveis exibem os valores passado no **context**. Sua sintaxe é ``{{ my_var }}``.
+
+### Tags e filters
+As tags são usadas no processo de renderização lógica. Por exemplo: condicionais, laços de repetição, carregar templates 
+parciais, herança de template etc.. A sintaxe para usar tags é `` {% and %} ``.
+
+Os filtros transformam argumentos de variáveis e tags. Sintaxe: ``{{ something|some_filter }}``
+
+Documentação oficial sobre de templates tags e filters: https://docs.djangoproject.com/en/5.1/ref/templates/builtins/#top.
