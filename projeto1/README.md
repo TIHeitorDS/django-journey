@@ -13,6 +13,9 @@
 - PUT: O método PUT faz alterações em um recurso especificado.
 - DELETE: O método DELETE faz a exclusão de um recurso especificado.
 
+Links úteis [status de respostas HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status) e
+[HTTP request response](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods).
+
 # Django Templates
 Os **templates** no Django são arquivos HTML dinâmicos. Além disso, nos templates 
 é possível usar variáveis, tags e filtros.
